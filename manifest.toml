@@ -88,7 +88,7 @@ ram.runtime = "50M"
         # assuming the upstream's code repo is on github and relies on tags or releases
         # See the 'sources' resource documentation for more details
 
-        # autoupdate.strategy = "latest_github_tag"
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
     # This will provision/deprovision a unix system user
